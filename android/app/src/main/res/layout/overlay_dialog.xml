@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="#FFF2E5E3"
+    android:gravity="center"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/alameed"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/overlay_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locking in 5 seconds..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="إلغاء اغلاق الشاشة"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
